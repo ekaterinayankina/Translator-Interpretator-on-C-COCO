@@ -10,7 +10,7 @@ public class CodeGenerator {
 	string[] opcode =
 	  {"ADD", "SUB", "MUL", "DIV", "EQU", "NEQU", "LSS", "GTR", "LEQ", "GEQ", "NEG",
 	"LOAD", "LOADG", "STO", "STOG", "CONST", "AND", "OR", "UNION", "CROS", "RES", "DIFF",
-	"CALL", "RET", "ENTER", "LEAVE", "JMP", "FJMP", "READ", "WRITE", "ERR" };
+	"CALL", "RET", "ENTER", "LEAVE", "JMP", "FJMP", "READ", "WRITE", "ERR" } ;
 
 	public int progStart;	// address of first instruction of main program
 	public int pc;				// program counter
